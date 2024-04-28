@@ -92,3 +92,11 @@ h2{
     min-height: 100px;
     overflow: hidden;
 }
+
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 16px;
+    }
+}
