@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #6149ca;
+}
+
+h1{
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.container{
+    width: 500px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 15px #000000;
+}
+
+label{
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+textarea, input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #999999;
+    resize: none;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+button{
+    padding: 12px;
+    font-size: 15px;
+    width: 50%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #35302d;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover{
+    padding: 8px;
+    background-color: #ffffff;
+    color: #35302d;
+    border: 1px solid #35302d71;
+}
+
+h2{
+    margin-bottom: 10px;
+    padding-top: 24px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+#result{
+    font-size: 13px;
+    border: 1px solid #35302d71;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    min-height: 100px;
+    overflow: hidden;
+}
