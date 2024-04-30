@@ -60,11 +60,11 @@ function updateResult(isEncrypting) {
 }
 
 // Add event listeners to buttons
-document.getElementById("dec-btn").addEventListener('click', function () {
+document.getElementById("enc-btn").addEventListener('click', function () {
     updateResult(true);
 });
 
-document.getElementById("enc-btn").addEventListener('click', function () {
+document.getElementById("dec-btn").addEventListener('click', function () {
     updateResult(false);
 });
 
